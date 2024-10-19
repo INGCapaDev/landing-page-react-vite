@@ -73,7 +73,8 @@ function Review() {
         className="mt-14 flex flex-col items-center justify-center gap-2 md:flex-row"
       >
         {[customer1, customer2, customer3, customer4].map((customer, idx) => (
-          <img
+          <motion.img
+            variants={itemVariants}
             key={idx}
             src={customer}
             alt={`customer${idx}`}
