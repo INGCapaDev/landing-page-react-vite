@@ -2,6 +2,7 @@ import About from "./components/About";
 import ContactSection from "./components/ContactSection";
 import Dishes from "./components/Dishes";
 import Expertise from "./components/Expertise";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Mission from "./components/Mission";
 import Navbar from "./components/Navbar";
@@ -18,6 +19,7 @@ const App = () => {
       <Expertise />
       <Review />
       <ContactSection />
+      <Footer />
     </main>
   );
 };
