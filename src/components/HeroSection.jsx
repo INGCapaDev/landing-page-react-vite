@@ -1,12 +1,13 @@
+import logo from "@assets/full-logo-hero.webp";
+import hero from "@assets/hero-fallback.webp";
+import video from "@assets/hero-video.webm";
 import { motion } from "framer-motion";
-import hero from "../assets/hero.jpeg";
-import video from "../assets/hero.mp4";
-import logo from "../assets/logo.png";
+import { FaArrowDown } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
     <section className="relative flex h-screen items-center justify-center">
-      <div className="absolute inset-0 -z-20 h-full w-full bg-black/60"></div>
+      <div className="absolute inset-0 -z-20 h-full w-full bg-black/80"></div>
       <div className="absolute inset-0 -z-30 h-full w-full overflow-hidden">
         <video
           src={video}
@@ -28,7 +29,7 @@ const HeroSection = () => {
           alt="Logo img"
           className="w-full p-4"
         />
-        <p className="p-4 text-lg tracking-tighter text-white">Paris</p>
+        <FaArrowDown className="mx-auto h-6 w-auto animate-bounce" />
       </div>
     </section>
   );
