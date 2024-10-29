@@ -1,22 +1,25 @@
-import dish1 from "../assets/dish1.jpeg";
-import dish2 from "../assets/dish2.jpeg";
-import dish3 from "../assets/dish3.jpeg";
+import project1 from "@assets/portoblanco.webp";
+import project2 from "@assets/praia.webp";
+
+import project3 from "@assets/sonterra.webp";
 import dish4 from "../assets/dish4.jpeg";
 import dish5 from "../assets/dish5.jpeg";
 import dish6 from "../assets/dish6.jpeg";
 import dish7 from "../assets/dish7.jpeg";
 import dish8 from "../assets/dish8.jpeg";
-import dish9 from "../assets/dish9.jpeg";
-import dish10 from "../assets/dish10.jpeg";
 
+import indian from "../assets/indian.jpeg";
 import italian from "../assets/italian.jpeg";
 import japanese from "../assets/japanese.jpeg";
-import indian from "../assets/indian.jpeg";
 
-import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
+
+export const WHATSAPP_LADA = "52";
+export const WHATSAPP_NUMBER = "6694048180";
+export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_LADA}${WHATSAPP_NUMBER}?text=Hola%2C%20estoy%20interesado%20en%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20proyectos%20inmobiliarios.%20%C2%BFPodr%C3%ADan%20enviarme%20detalles%20sobre%20las%20opciones%20disponibles%3F`;
 
 export const LINKS = [
-  { text: "Dishes", targetId: "dishes" },
+  { text: "Proyectos", targetId: "projects" },
   { text: "About", targetId: "about" },
   { text: "Mission", targetId: "mission" },
   { text: "Expertise", targetId: "expertise" },
@@ -24,21 +27,24 @@ export const LINKS = [
   { text: "Contact", targetId: "contact" },
 ];
 
-export const DISHES = [
+export const PROJECTS = [
   {
-    image: dish1,
-    title: "Spaghetti Carbonara",
-    description: "Creamy pasta with bacon and cheese",
+    image: project1,
+    title: "Porto Blanco",
+    description:
+      "PORTO BLANCO es un proyecto exclusivo de solo 32 unidades, diseñado para quienes buscan vivir en un espacio único, seguro y tranquilo, con áreas pensadas para el descanso y la comodidad ✨",
   },
   {
-    image: dish2,
-    title: "Chicken Tikka Masala",
-    description: "Indian curry with tender chicken in spicy sauce",
+    image: project2,
+    title: "Praia Malecón",
+    description:
+      "Invierte inteligentemente en un proyecto de alta plusvalía, ubicado en el corazón del malecón de Mazatlán, justo frente al mar 🌊",
   },
   {
-    image: dish3,
-    title: "Caprese Salad",
-    description: "Fresh tomatoes, mozzarella, and basil with balsamic glaze",
+    image: project3,
+    title: "Sonterra Residencial",
+    description:
+      "Hermosa casa disponible en Sonterra 🏡, ubicada en la avenida principal, con fácil acceso y rodeada de todos los servicios esenciales. Ideal para quienes buscan comodidad y un entorno bien conectado.",
   },
   {
     image: dish4,
@@ -64,17 +70,6 @@ export const DISHES = [
     image: dish8,
     title: "Peking Duck",
     description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
-  },
-  {
-    image: dish9,
-    title: "Beef Wellington",
-    description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
-  },
-  {
-    image: dish10,
-    title: "Tiramisu",
-    description:
-      "Italian dessert with layers of coffee-soaked biscuits and mascarpone",
   },
 ];
 

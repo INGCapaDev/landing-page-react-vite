@@ -1,6 +1,6 @@
+import Projects from "@/components/Projects";
 import About from "@components/About";
 import ContactSection from "@components/ContactSection";
-import Dishes from "@components/Dishes";
 import Expertise from "@components/Expertise";
 import Footer from "@components/Footer";
 import HeroSection from "@components/HeroSection";
@@ -12,7 +12,7 @@ const App = () => {
     <main className="overflow-hidden text-neutral-200 antialiased">
       <HeroSection />
       <Navbar />
-      <Dishes />
+      <Projects />
       <About />
       {/* <Mission /> */}
       <Expertise />
