@@ -2,11 +2,7 @@ import project1 from "@assets/portoblanco.webp";
 import project2 from "@assets/praia.webp";
 
 import project3 from "@assets/sonterra.webp";
-import dish4 from "../assets/dish4.jpeg";
-import dish5 from "../assets/dish5.jpeg";
-import dish6 from "../assets/dish6.jpeg";
-import dish7 from "../assets/dish7.jpeg";
-import dish8 from "../assets/dish8.jpeg";
+import project4 from "@assets/tiburon.webp";
 
 import indian from "../assets/indian.jpeg";
 import italian from "../assets/italian.jpeg";
@@ -47,29 +43,10 @@ export const PROJECTS = [
       "Hermosa casa disponible en Sonterra 🏡, ubicada en la avenida principal, con fácil acceso y rodeada de todos los servicios esenciales. Ideal para quienes buscan comodidad y un entorno bien conectado.",
   },
   {
-    image: dish4,
-    title: "Sushi Roll",
-    description: "Assorted seafood and vegetables wrapped in seaweed and rice",
-  },
-  {
-    image: dish5,
-    title: "Chocolate Lava Cake",
-    description: "Decadent chocolate cake with a gooey center",
-  },
-  {
-    image: dish6,
-    title: "Greek Salad",
-    description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
-  },
-  {
-    image: dish7,
-    title: "Pad Thai",
-    description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
-  },
-  {
-    image: dish8,
-    title: "Peking Duck",
-    description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
+    image: project4,
+    title: "Torre Tiburón",
+    description:
+      "¡Tu nuevo departamento en Torre Tiburón desde $2.6 MDP! 🏢 Vive a solo 300 metros del mar, en la exclusiva zona de Sábalo Country, con precios de preventa. ¡Invierte en tu futuro y disfruta de un hogar lleno de comodidades!",
   },
 ];
 

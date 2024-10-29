@@ -20,7 +20,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="fixed top-4 z-50 flex w-full flex-col items-center justify-center">
+    <nav className="fixed top-0 z-50 flex w-full flex-col items-center justify-center lg:top-4">
       <div className="flex w-full items-center justify-between overflow-y-hidden p-4 backdrop-blur-lg lg:m-2 lg:w-[50rem] lg:rounded-full lg:shadow-lg">
         <img src={logo} alt="Logo img" height={28} width={32} />
         <div className="hidden space-x-6 lg:flex">
