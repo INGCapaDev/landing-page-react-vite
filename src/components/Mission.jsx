@@ -1,6 +1,6 @@
+import mission from "@assets/mission-video.webm";
 import { motion } from "framer-motion";
 import missionIMG from "../assets/mission.jpeg";
-import mission from "../assets/mission.mp4";
 import { MISSION } from "../constants";
 
 function Mission() {
@@ -8,7 +8,7 @@ function Mission() {
     <section id="mission">
       <div className="container mx-auto text-center">
         <h2 className="mb-8 text-3xl lg:text-4xl">Our Mission</h2>
-        <div className="relative flex items-center justify-center">
+        <div className="relative flex items-center justify-center px-6 py-4">
           <motion.video
             src={mission}
             className="w-full rounded-3xl"
@@ -27,7 +27,7 @@ function Mission() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             viewport={{ once: true }}
-            className="absolute h-full w-full rounded-3xl bg-black/60"
+            className="absolute h-full w-full rounded-3xl bg-black/80"
           ></motion.div>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

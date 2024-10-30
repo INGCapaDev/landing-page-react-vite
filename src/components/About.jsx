@@ -1,7 +1,8 @@
+import about_mobile from "@assets/about-us-mobile.webp";
+import about from "@assets/about-us.webp";
+import Highlight from "@components/common/Highlight";
+import { ABOUT } from "@constants";
 import { motion } from "framer-motion";
-import about from "../assets/about.jpeg";
-import { ABOUT } from "../constants";
-import Highlight from "./common/Highlight";
 
 function About() {
   return (
@@ -10,11 +11,17 @@ function About() {
         Sobre nosotros
       </h2>
       <div className="flex flex-wrap">
-        <div className="w-full p-4 lg:w-1/2">
+        <div className="2 w-full px-6 py-4 lg:w-1/2">
+          <img
+            src={about_mobile}
+            alt="About img"
+            className="h-auto w-full rounded-3xl object-contain lg:hidden"
+          />
+
           <img
             src={about}
             alt="About img"
-            className="rounded-3xl lg:-rotate-3"
+            className="hidden aspect-square h-auto w-full -rotate-3 rounded-3xl lg:block"
           />
         </div>
         <div className="w-full px-2 lg:w-1/2">
