@@ -95,7 +95,7 @@ export const REVIEW = {
   name: "Carlos Magallanes",
   profession: "Asesor Inmobiliario",
   content:
-    "La inversión en bienes raíces es una de las decisiones más sólidas y seguras. No solo se trata de adquirir propiedades, sino de construir un patrimonio estable que crezca con el tiempo y que puedas transmitir como un legado para el futuro.",
+    '"La inversión en bienes raíces es una de las decisiones más sólidas y seguras. No solo se trata de adquirir propiedades, sino de construir un patrimonio estable que crezca con el tiempo y que puedas transmitir como un legado para el futuro."',
 };
 
 export const CONTACT = [
