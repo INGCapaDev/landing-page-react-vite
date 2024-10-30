@@ -7,10 +7,11 @@ import HeroSection from "@components/HeroSection";
 import Mission from "@components/Mission";
 import Navbar from "@components/Navbar";
 import Review from "@components/Review";
+import WhatssapButton from "./components/WhatssapButton";
 
 const App = () => {
   return (
-    <main className="overflow-hidden text-neutral-200 antialiased">
+    <main className="relative overflow-hidden text-neutral-200 antialiased">
       <HeroSection />
       <Navbar />
       <Projects />
@@ -20,6 +21,7 @@ const App = () => {
       <Review />
       <ContactSection />
       <Footer />
+      <WhatssapButton />
     </main>
   );
 };

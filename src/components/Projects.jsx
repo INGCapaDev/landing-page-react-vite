@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
-    <section className="container mx-auto py-16" id="projects">
+    <section className="container mx-auto px-6 py-16" id="projects">
       <h2 className="mb-8 text-center text-3xl tracking-tighter lg:text-4xl">
         Nuestros Proyectos
       </h2>

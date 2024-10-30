@@ -70,7 +70,7 @@ function Review() {
           variants={itemVariants}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="mx-auto mt-12 flex w-fit items-center gap-2 rounded-lg border border-accent px-4 py-2 text-neutral-200"
+          className="mx-auto mt-12 flex w-fit items-center gap-2 rounded-lg border border-neutral-800 px-4 py-2 text-neutral-300"
           onClick={goToWhatsApp}
         >
           <FaWhatsapp></FaWhatsapp> Contactar
