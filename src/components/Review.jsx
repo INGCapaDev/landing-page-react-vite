@@ -1,9 +1,11 @@
+import reviewIMG from "@assets/yoshi.webp";
+import { goToWhatsApp } from "@lib/whatssap";
 import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa";
 import customer1 from "../assets/customer1.jpeg";
 import customer2 from "../assets/customer2.jpeg";
 import customer3 from "../assets/customer3.jpeg";
 import customer4 from "../assets/customer4.jpeg";
-import reviewIMG from "../assets/xaviour.jpeg";
 import { REVIEW } from "../constants";
 
 const containerVariants = {
@@ -44,7 +46,7 @@ function Review() {
       >
         <motion.p
           variants={itemVariants}
-          className="mb-10 px-4 text-3xl font-light leading-normal tracking-tighter lg:mx-32 lg:mt-32 lg:text-4xl lg:leading-relaxed lg:tracking-normal"
+          className="mb-10 px-4 text-3xl font-light leading-normal tracking-tighter lg:mx-32 lg:mt-24 lg:text-4xl lg:leading-relaxed lg:tracking-normal"
         >
           {REVIEW.content}
         </motion.p>
@@ -64,6 +66,15 @@ function Review() {
             <p className="text-sm text-neutral-500">{REVIEW.profession}</p>
           </div>
         </motion.div>
+        <motion.button
+          variants={itemVariants}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="mx-auto mt-12 flex w-fit items-center gap-2 rounded-lg border border-accent px-4 py-2 text-neutral-200"
+          onClick={goToWhatsApp}
+        >
+          <FaWhatsapp></FaWhatsapp> Contactar
+        </motion.button>
       </motion.div>
       <motion.div
         initial="hidden"

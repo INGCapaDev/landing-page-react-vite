@@ -1,7 +1,6 @@
-import { WHATSAPP_URL } from "@/constants";
+import { goToWhatsApp } from "@lib/whatssap";
 
 const ProjectCard = ({ project }) => {
-  const goToWhatsApp = () => window.open(WHATSAPP_URL, "_blank");
   return (
     <div>
       <img
@@ -12,7 +11,7 @@ const ProjectCard = ({ project }) => {
       />
       <div className="p-4">
         <h3
-          className="hover:text-accent mb-2 w-fit cursor-pointer text-2xl font-bold tracking-tighter transition-colors duration-150"
+          className="mb-2 w-fit cursor-pointer text-2xl font-bold tracking-tighter transition-colors duration-150 hover:text-accent"
           onClick={goToWhatsApp}
         >
           {project.title}

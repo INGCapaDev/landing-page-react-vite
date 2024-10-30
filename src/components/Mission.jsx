@@ -7,11 +7,11 @@ function Mission() {
   return (
     <section id="mission">
       <div className="container mx-auto text-center">
-        <h2 className="mb-8 text-3xl lg:text-4xl">Our Mission</h2>
+        <h2 className="mb-8 text-3xl lg:text-4xl">Nuestra misión</h2>
         <div className="relative flex items-center justify-center px-6 py-4">
           <motion.video
             src={mission}
-            className="w-full rounded-3xl"
+            className="aspect-video h-auto w-full rounded-3xl"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
@@ -34,7 +34,7 @@ function Mission() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: true }}
-            className="absolute max-w-lg tracking-tighter lg:text-3xl"
+            className="absolute left-8 right-8 mx-auto max-w-2xl text-balance tracking-tighter lg:text-3xl"
           >
             {MISSION}
           </motion.p>

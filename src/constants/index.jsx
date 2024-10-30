@@ -15,7 +15,7 @@ export const LINKS = [
   { text: "Nosotros", targetId: "about" },
   { text: "Misión", targetId: "mission" },
   { text: "Experiencia", targetId: "expertise" },
-  { text: "Review", targetId: "review" },
+  { text: "Inversión", targetId: "review" },
   { text: "Contact", targetId: "contact" },
 ];
 
@@ -51,7 +51,7 @@ export const ABOUT = {
 };
 
 export const MISSION =
-  "At our restaurant, our mission is to create delicious and memorable dining experiences.";
+  "Nuestra misión es guiar a cada cliente en el mercado inmobiliario con transparencia y pasión, maximizando su rentabilidad y cumpliendo sus metas.";
 
 export const EXPERTISE = [
   {
@@ -92,10 +92,10 @@ export const EXPERTISE = [
 ];
 
 export const REVIEW = {
-  name: "Xaviour Fernando",
-  profession: "Food Critic",
+  name: "Carlos Magallanes",
+  profession: "Asesor Inmobiliario",
   content:
-    "“As a seasoned food critic, my expectations are always high when stepping into a new dining establishment. Restaura, with its unassuming exterior and elegantly designed interior, promised a unique culinary experience from the moment I walked in. And I must say, it delivered beyond my expectations.”",
+    "La inversión en bienes raíces es una de las decisiones más sólidas y seguras. No solo se trata de adquirir propiedades, sino de construir un patrimonio estable que crezca con el tiempo y que puedas transmitir como un legado para el futuro.",
 };
 
 export const CONTACT = [
