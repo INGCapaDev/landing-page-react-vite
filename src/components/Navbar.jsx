@@ -23,12 +23,12 @@ function Navbar() {
     <nav className="fixed top-0 z-50 flex w-full flex-col items-center justify-center lg:top-4">
       <div className="flex w-full items-center justify-between overflow-y-hidden p-4 backdrop-blur-lg lg:m-2 lg:w-[50rem] lg:rounded-full lg:shadow-lg">
         <img src={logo} alt="Logo img" height={28} width={32} />
-        <div className="hidden space-x-6 lg:flex">
+        <div className="hidden gap-6 px-6 lg:flex">
           {LINKS.map((link, idx) => (
             <a
               key={idx}
               href={`#${link.targetId}`}
-              className={`text-sm ${idx !== 0 ? "border-l-2 border-neutral-300/20 pl-2" : ""} hover:opacity-50`}
+              className={`text-sm ${idx !== 0 ? "border-l-2 border-neutral-300/20 pl-6" : ""} transition-opacity duration-150 hover:opacity-50`}
               onClick={(e) => handleScroll(e, link.targetId)}
             >
               {link.text}

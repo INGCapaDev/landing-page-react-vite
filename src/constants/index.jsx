@@ -4,10 +4,6 @@ import project2 from "@assets/praia.webp";
 import project3 from "@assets/sonterra.webp";
 import project4 from "@assets/tiburon.webp";
 
-import indian from "../assets/indian.jpeg";
-import italian from "../assets/italian.jpeg";
-import japanese from "../assets/japanese.jpeg";
-
 import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 export const WHATSAPP_LADA = "52";
@@ -16,9 +12,9 @@ export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_LADA}${WHATSAPP_NUMBER}?te
 
 export const LINKS = [
   { text: "Proyectos", targetId: "projects" },
-  { text: "Sobre Nosotros", targetId: "about" },
-  { text: "Mission", targetId: "mission" },
-  { text: "Expertise", targetId: "expertise" },
+  { text: "Nosotros", targetId: "about" },
+  { text: "Misión", targetId: "mission" },
+  { text: "Experiencia", targetId: "expertise" },
   { text: "Review", targetId: "review" },
   { text: "Contact", targetId: "contact" },
 ];
@@ -57,27 +53,41 @@ export const ABOUT = {
 export const MISSION =
   "At our restaurant, our mission is to create delicious and memorable dining experiences.";
 
-export const CUSINES = [
+export const EXPERTISE = [
   {
     number: "01.",
-    image: italian,
-    title: "Italian",
+    image: "",
+    title: "El Mejor Asesoramiento",
     description:
-      "Experience the flavors of Italy with our exquisite Italian cuisine, featuring traditional recipes and contemporary dishes.",
+      "Nuestro equipo de expertos te acompaña en cada paso, brindándote asesoramiento personalizado para que tomes decisiones informadas y seguras.",
   },
   {
     number: "02.",
-    image: japanese,
-    title: "Japanese",
+    image: "",
+    title: "Inversiones Seguras",
     description:
-      "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
+      "Ofrecemos proyectos con alta plusvalía y rentabilidad, asegurando que tu inversión esté protegida y crezca con el tiempo.",
   },
   {
     number: "03.",
-    image: indian,
-    title: "Indian",
+    image: "",
+    title: "Preventas Exclusivas",
     description:
-      "Indulge in the rich and diverse tastes of India, with a menu that celebrates the country's culinary heritage.",
+      "Accede a nuestras preventas exclusivas y aprovecha oportunidades únicas para invertir en proyectos de alta demanda antes de su lanzamiento.",
+  },
+  {
+    number: "04.",
+    image: "",
+    title: "Alto Retorno de Inversión",
+    description:
+      "Nuestros desarrollos están ubicados en zonas de alta plusvalía, garantizando un excelente retorno de inversión a mediano y largo plazo.",
+  },
+  {
+    number: "05.",
+    image: "",
+    title: "Confianza y Transparencia",
+    description:
+      "Tu confianza es nuestra prioridad. Trabajamos con transparencia y compromiso, brindándote una experiencia de inversión sin sorpresas.",
   },
 ];
 

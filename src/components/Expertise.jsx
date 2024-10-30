@@ -1,5 +1,5 @@
+import { EXPERTISE } from "@/constants";
 import { motion } from "framer-motion";
-import { CUSINES } from "../constants";
 
 const containerVariants = {
   hidden: {
@@ -22,7 +22,7 @@ const itemVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.8,
+      duration: 0.3,
     },
   },
 };
@@ -31,15 +31,16 @@ const Expertise = () => {
   return (
     <section id="expertise">
       <h2 className="my-8 text-center text-3xl tracking-tighter lg:text-4xl">
-        Our Expertise
+        Nuestra experiencia
       </h2>
       <motion.div
         initial="hidden"
         whileInView="show"
         variants={containerVariants}
+        viewport={{ once: true }}
         className="container mx-auto px-4"
       >
-        {CUSINES.map((cusine, idx) => (
+        {EXPERTISE.map((cusine, idx) => (
           <motion.div
             key={idx}
             className="flex items-center border-b-4 border-dotted border-neutral-700/40 py-2"
@@ -54,7 +55,7 @@ const Expertise = () => {
               />
             </div>
             <div className="pl-8">
-              <h3 className="text-2xl uppercase tracking-tighter text-rose-300">
+              <h3 className="text-accent-text text-2xl uppercase tracking-tighter">
                 {cusine.title}
               </h3>
               <p className="mt-4 text-lg tracking-tighter">
