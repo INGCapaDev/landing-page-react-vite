@@ -26,7 +26,7 @@ const WhatssapButton = () => {
         hidden: { opacity: 0 },
         show: { opacity: 1, transition: { duration: 0.5 } },
       }}
-      className="fixed bottom-2 right-2 z-50 rounded-full border border-neutral-800 bg-black/70 p-3 text-neutral-300 backdrop-blur transition-all duration-150 lg:p-4"
+      className="fixed bottom-2 right-2 z-50 rounded-full border border-neutral-800 bg-black/70 p-3 text-neutral-300 backdrop-blur transition-all duration-150 lg:bottom-4 lg:right-4 lg:p-4"
       onClick={goToWhatsApp}
     >
       <FaWhatsapp className="h-6 w-6 transition-all duration-150 lg:h-7 lg:w-7" />

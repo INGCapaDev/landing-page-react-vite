@@ -1,7 +1,7 @@
 import mission from "@assets/mission-video.webm";
 import missionIMG from "@assets/mission.webp";
+import { MISSION } from "@constants";
 import { motion } from "framer-motion";
-import { MISSION } from "../constants";
 
 function Mission() {
   return (
