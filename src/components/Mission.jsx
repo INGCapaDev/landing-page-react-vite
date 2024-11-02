@@ -1,6 +1,6 @@
 import mission from "@assets/mission-video.webm";
+import missionIMG from "@assets/mission.webp";
 import { motion } from "framer-motion";
-import missionIMG from "../assets/mission.jpeg";
 import { MISSION } from "../constants";
 
 function Mission() {
@@ -11,7 +11,7 @@ function Mission() {
         <div className="relative flex items-center justify-center px-6 py-4">
           <motion.video
             src={mission}
-            className="aspect-video h-auto w-full rounded-3xl"
+            className="aspect-video h-auto w-full rounded-3xl object-cover object-center"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
