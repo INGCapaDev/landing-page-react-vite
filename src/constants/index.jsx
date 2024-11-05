@@ -1,8 +1,13 @@
 import project1 from "@assets/portoblanco.webp";
 import project2 from "@assets/praia.webp";
-
 import project3 from "@assets/sonterra.webp";
 import project4 from "@assets/tiburon.webp";
+
+import skill1 from "@assets/consultory.webp";
+import skill3 from "@assets/exclusive-presales.webp";
+import skill4 from "@assets/highly-returns.webp";
+import skill2 from "@assets/secure-investment.webp";
+import skill5 from "@assets/trust.webp";
 
 import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
 
@@ -56,35 +61,36 @@ export const MISSION =
 export const EXPERTISE = [
   {
     number: "01.",
-    image: "",
+    image: skill1,
     title: "El Mejor Asesoramiento",
     description:
       "Nuestro equipo de expertos te acompaña en cada paso, brindándote asesoramiento personalizado para que tomes decisiones informadas y seguras.",
   },
   {
     number: "02.",
-    image: "",
+    image: skill2,
     title: "Inversiones Seguras",
     description:
       "Ofrecemos proyectos con alta plusvalía y rentabilidad, asegurando que tu inversión esté protegida y crezca con el tiempo.",
   },
   {
     number: "03.",
-    image: "",
+    image: skill3,
     title: "Preventas Exclusivas",
     description:
       "Accede a nuestras preventas exclusivas y aprovecha oportunidades únicas para invertir en proyectos de alta demanda antes de su lanzamiento.",
   },
   {
     number: "04.",
-    image: "",
+
+    image: skill4,
     title: "Alto Retorno de Inversión",
     description:
       "Nuestros desarrollos están ubicados en zonas de alta plusvalía, garantizando un excelente retorno de inversión a mediano y largo plazo.",
   },
   {
     number: "05.",
-    image: "",
+    image: skill5,
     title: "Confianza y Transparencia",
     description:
       "Tu confianza es nuestra prioridad. Trabajamos con transparencia y compromiso, brindándote una experiencia de inversión sin sorpresas.",
