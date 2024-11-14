@@ -10,6 +10,7 @@ import skill2 from "@assets/secure-investment.webp";
 import skill5 from "@assets/trust.webp";
 
 import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { goToWhatsApp } from "@/lib/whatssap";
 
 export const WHATSAPP_LADA = "52";
 export const WHATSAPP_NUMBER = "6694048180";
@@ -104,10 +105,20 @@ export const REVIEW = {
     '"La inversión en bienes raíces es una de las decisiones más sólidas y seguras. No solo se trata de adquirir propiedades, sino de construir un patrimonio estable que crezca con el tiempo y que puedas transmitir como un legado para el futuro."',
 };
 
+const gmaps_link = "https://maps.app.goo.gl/ehfaPAjzospcNHvW9";
+const email = "";
 export const CONTACT = [
-  { key: "address", value: "Address: 123 Main Street, Paris, France, 345678" },
-  { key: "phone", value: "Phone: 123-456-7890" },
-  { key: "email", value: "Email: contact@restaurant.com" },
+  {
+    key: "address",
+    value: "Av. Carlos Canseco 6048, Marina Mazatlán, 82103 Mazatlán, Sin.",
+    callback: () => window.open(gmaps_link, "_blank"),
+  },
+  { key: "phone", value: "669-404-8180", callback: goToWhatsApp },
+  {
+    key: "email",
+    value: "contact@restaurant.com",
+    callback: () => window.open(`mailto:${email}`, "_blank"),
+  },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
