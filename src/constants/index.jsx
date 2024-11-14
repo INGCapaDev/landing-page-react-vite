@@ -106,7 +106,6 @@ export const REVIEW = {
 };
 
 const gmaps_link = "https://maps.app.goo.gl/ehfaPAjzospcNHvW9";
-const email = "";
 export const CONTACT = [
   {
     key: "address",
@@ -114,11 +113,11 @@ export const CONTACT = [
     callback: () => window.open(gmaps_link, "_blank"),
   },
   { key: "phone", value: "669-404-8180", callback: goToWhatsApp },
-  {
+  /* {
     key: "email",
     value: "contact@restaurant.com",
     callback: () => window.open(`mailto:${email}`, "_blank"),
-  },
+  } */
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
