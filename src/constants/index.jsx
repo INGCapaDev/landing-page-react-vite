@@ -9,8 +9,9 @@ import skill4 from "@assets/highly-returns.webp";
 import skill2 from "@assets/secure-investment.webp";
 import skill5 from "@assets/trust.webp";
 
-import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram } from "react-icons/fa6";
 import { goToWhatsApp } from "@/lib/whatssap";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const WHATSAPP_LADA = "52";
 export const WHATSAPP_NUMBER = "6694048180";
@@ -22,7 +23,7 @@ export const LINKS = [
   { text: "Misión", targetId: "mission" },
   { text: "Experiencia", targetId: "expertise" },
   { text: "Inversión", targetId: "review" },
-  { text: "Contact", targetId: "contact" },
+  { text: "Contacto", targetId: "contact" },
 ];
 
 export const PROJECTS = [
@@ -122,16 +123,16 @@ export const CONTACT = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.facebook.com/profile.php?id=61565627799844",
     icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
   },
 
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/unicodesarrollosmzt",
     icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
+    href: WHATSAPP_URL,
+    icon: <FaWhatsapp fontSize={30} className="hover:opacity-80" />,
   },
 ];

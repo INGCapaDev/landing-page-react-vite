@@ -16,7 +16,7 @@ const Footer = () => {
         ))}
       </div>
       <p className="mt-8 text-center tracking-tighter text-neutral-500">
-        &copy; Unico Desarrollos All rights reserved
+        &copy; Unico Desarrollos Inmobiliarios. Todos los derechos reservados.
       </p>
     </section>
   );
